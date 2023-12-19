@@ -1,0 +1,24 @@
+<app-menu></app-menu>
+<div id="miregistro">
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre">
+      <div></div>
+      </div>
+      <div class="form-group">
+        <label for="apellido">Apellido</label>
+        <input type="text" class="form-control" id="apellido" [(ngModel)]="apellido" >
+        </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="text" class="form-control" id="email" [(ngModel)]="email">
+        </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="password">
+    </div>
+   
+    <button type="submit" class="btn btn-primary" (click)="Registrar()">Registrar</button>
+</div>

@@ -1,0 +1,59 @@
+
+/* src/app/app.component.css */
+
+header {
+    background-color: #000000;
+    color: black;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #5827a7;
+    z-index: 1000;
+  }
+  
+  
+  img{
+    height: 45px;
+  }
+ 
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .auth-options a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  
+    nav a {
+      margin-right: 0;
+    }
+  }
+
+  .bg-light {
+    background-color: #000000!important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(255 255 255);
+  border-color: rgb(119 53 205);
+  background-color: #379df1;
+}
+
+
+

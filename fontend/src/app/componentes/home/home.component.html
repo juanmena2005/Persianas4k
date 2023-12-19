@@ -1,0 +1,136 @@
+<app-menu></app-menu>
+<body>
+<div id="espacioCero">.</div>
+    <div class="inicio">
+    <div class="parrafo">
+
+        <img src="/assets/img/WhatsApp_Image_2023-11-29_at_6.21.07_PM-removebg-preview.png" class="wall">
+        <div >
+        <h1>Diseño y instalacion de servicios </h1>
+        <p class="slogan">con servio de diseño de interiores</p>
+    </div>
+        </div>
+
+<app-wh></app-wh>
+        
+<div><a href="/registro" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Registrar</a></div>
+</div>
+<div class="cartas">
+
+<div class="a">
+
+<div><img src="/assets/img/arreglando-el-problema .png" class="TE"></div>
+<div><h2>servios  tecnicos</h2></div>
+
+</div>
+<div class="a">
+    <div><img src="/assets/img/escalera.png" class="TE"></div>
+    <div><h2>Diseño interiores</h2></div>
+
+
+
+</div>
+<div class="a">
+
+
+    <div><img src="/assets/img/ventana.png" class="TE"></div>
+<div><h2>persianas</h2></div>
+</div>
+
+</div>
+
+<div id="inicio"  class="segunda">
+
+<div><img src="/assets/img/natalia-rivera-noguera-final-f-removebg-preview.png" class="cap"></div>
+<div class="are"><h2 class="how">Te ofrecemos las mejores soluciones para los problemasde tu hogar </h2>
+
+
+</div>
+<div class="thor">
+    <div id="titleCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3 class="text-center">Reparaciones Domésticas</h3>
+                <p class="text-center">Desde la fijación de grifos goteantes hasta la reparación de pequeños electrodomésticos, nuestro Handyman tiene las habilidades para solucionar cualquier problema en tu hogar. No dejes que las pequeñas molestias se conviertan en grandes problemas; confía en nosotros para mantener tu hogar en óptimas condiciones.</p>
+            </div>
+            
+            <div class="carousel-item">
+                <h3 class="text-center">Instalaciones y Montajes</h3>
+                <p class="text-center">¿Un nuevo estante, cortinas o lámparas? Nuestro Handyman no solo es hábil con las herramientas, sino que también tiene un ojo experto para la estética. Realizamos instalaciones limpias y precisas que complementarán perfectamente tu hogar.</p>
+            </div>
+
+            <!-- Repite la estructura para las otras secciones -->
+
+        </div>
+        <a class="carousel-control-prev" href="#titleCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#titleCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    
+
+</div>
+</div>
+
+    
+</div>
+
+<div id="intro" class="TREE">
+
+<div  class="we">
+    <h1 class="como">Como trabajamos?</h1>
+
+    <p> Puedes contratarnos para realizar pequeñas reparaciones y mejoras en tu hogar, o incluso para proyectos más complejos que requieren una combinación de habilidades. Nuestra versatilidad nos permite adaptarnos a las necesidades específicas de cada cliente y ofrecer soluciones prácticas y efectivas.</p>
+    <div><a href="https://www.indeed.com/orientacion-profesional/como-encontrar-empleo/que-hace-handyman" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Mas info🛠</a></div>
+</div>
+   
+<div class="ys">
+<div class="box"><img src="/assets/img/ventana.png" class="xdos"><p>Nos especializamos en la instalación de las persianas de cualquier tipo, con efiencia y profesionalismo. Con orientación de diseño de interiores</p></div>
+<div class="box"><img src="/assets/img/enchufe-electrico.png" class="xdos"><p>Si necesitas ayuda para instalar electrodomésticos, como lavadoras, secadoras y refrigeradores, o ensamblar muebles, nosotros podemos hacer el trabajo de manera rápida y eficiente.</p></div>
+
+</div>
+</div>
+
+<div id="servi" class="container">
+    <div id="perfil" class="row">
+    
+    
+
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 shoe" *ngFor="let item of data">
+            <p class="Dior">{{item.nombre}}</p>
+            <img src="http://localhost:3000/servicios/{{item._id}}.jpg" class="NIKE" routerLink="/productos_detalle/{{item._id}}">
+            <section class="price">
+            
+                <div><a href="https://w.app/Persianas4k" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Solicitar</a></div>
+        </section>
+        </div>
+    
+    </div>
+    
+</div>
+
+
+
+
+
+<div class="man">
+
+
+<div class="d"><h1 class="parce">24H llamadas de emergencia</h1></div>
+<div class="d"> <img src="/assets/img/Group.png" class="cell"></div>
+
+</div>
+
+
+    <app-footer></app-footer>
+
+
+
+
+
+</body>
+
+

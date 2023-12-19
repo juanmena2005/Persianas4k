@@ -1,0 +1,23 @@
+<div id="menulateral">
+
+
+<div id="datos">
+    <img src="assets/img/depositphotos_490754300-stock-illustration-avatar-labor-labour-icon-filled.jpg" id="avatar">
+    <div id="nombreuser">{{nombre}}</div>
+    <div id="rol">
+        <span *ngIf="rol == '1'">Administrador</span>
+        <span *ngIf="rol == '2'">usuario</span>
+    </div>
+
+</div>
+<div id="menu">
+    <div class="item" routerLink="/dashboard">dashboar</div>
+    <div class="item" routerLink="/usuarios">usuarios</div>
+    <div class="item" routerLink="/productos">Servicios</div>
+  
+    <div class="item" (click)="logout()">Cerrar sesion</div>
+ 
+
+</div>
+
+</div>

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+div#titulo {
+    width: calc(100% - 170px);
+    right: 1px;
+    position: absolute;
+}
+
+div#areadetrabajo {
+        width: calc(100% - 177px);
+    background: #efefeb;
+    height: calc(100vh - 98px);
+    margin-top: 56px;
+    left: 173px;
+    position: absolute;
+    border-radius: 7px;
+}
+div#miregistro, div#micuenta {
+    width: 400px;
+    border: solid 1px beige;
+    padding: 23px;
+    margin-top: 24px;
+    margin-bottom: 27px;
+    margin-left: calc(50% - 200px);
+    background: #2a98e7;
+    border-radius: 22px;
+    color: white;
+    position: relative;
+    top: 99px;
+}
+input.form-input {
+    width: 284px;
+}
+textarea.form-input.form-input--message {
+    width: 284px;
+}
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
+ body{
+    background-color: black;
+}
